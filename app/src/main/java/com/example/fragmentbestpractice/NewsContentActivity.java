@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class NewsContentActivity extends AppCompatActivity {
 
-    public void actionStart(Context context, String newsTitle, String newsContent) {//2.6.3启动活动的最佳写法
+    public static void actionStart(Context context, String newsTitle, String newsContent) {//2.6.3启动活动的最佳写法
         Intent intent = new Intent(context, NewsContentActivity.class);
         intent.putExtra("news title", newsTitle);
         intent.putExtra("news content", newsContent);
