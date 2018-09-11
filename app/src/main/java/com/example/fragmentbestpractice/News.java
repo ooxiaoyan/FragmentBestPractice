@@ -16,4 +16,8 @@ public class News {
     public String getContent() {
         return content;
     }
+
+    public String getTitle() {
+        return title;
+    }
 }
